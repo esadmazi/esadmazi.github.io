@@ -1,12 +1,88 @@
-!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  font-weight: bold;
+  color: #111;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+  color: #555;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 50px 10px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+}
 </head>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
+  <!-- Main content -->
+  <div class="container">
+    <h1>Hi</h1>
+    <h2>My name is M. Esad Mazı.</h2>
+    <p>
+      I am an aspiring NLP Engineer with hand-on experience in various technologies like LLM Models, TensorFlow, Python.
+      I also love building modern web applications. You can check out my work on 
+      <a href="https://github.com/your-github" target="_blank">GitHub</a>.
+    </p>
+    <p>
+      I am a Senior Student in METU, and I'm currently an intern in HAVELSAN.
+      Feel free to reach out to me through <a href="mailto:esad.mazi@metu.edu.tr">email</a> or follow me on 
+      <a href="https://linkedin.com/esad-mazi" target="_blank">LinkedIn</a>.
+    </p>
+    <p>
+      Outside of coding, I enjoy neuro-science, running long distances, reading about technology trends, and exploring different cusines and fragrances.
+    </p>
+  </div>
 </body>
 </html>
